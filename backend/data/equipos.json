@@ -1,0 +1,15 @@
+[
+  {
+    "nombre": "Arsenal F.C",
+    "nombre-corto": "Arsenal",
+    "tla": "ARS",
+    "escudo": "http://localhost:8080/escudos/ARS-escudo.png",
+    "direccion": "Highbury House, 75 Drayton Park, London, N5 1BU",
+    "telefono": "123456",
+    "email": "arsenal@mail.com",
+    "colores-equipo": "rojos y blancos",
+    "fundacion": "1990",
+    "sitio-web": "www.arsenal.com",
+    "estadio": "Emirates stadium"
+  }
+]
