@@ -66,6 +66,8 @@ async function formularioModificarEquipo(tla){
     $fundacion.value = equipo.fundacion;
     $estadio.value = equipo.estadio;
     $renderEscudo.src =  equipo.escudo;
+
+    verificarValidacion();
 }
 
 $botonCancelar.onclick = () => {
@@ -93,8 +95,8 @@ async function envioDeFormulario(event){
 
     if(tla !== null){
         try{    
-            let repuesta = await modificarEquipo(formData, tla);
-            const modalData = new ModalData(repuesta); 
+            const respuesta = await modificarEquipo(formData, tla);
+            const modalData = new ModalData(respuesta); 
             activarModal(modalData, tla);
         }catch(error){
             const modalData = new ModalData().errorModificarEquipo()
