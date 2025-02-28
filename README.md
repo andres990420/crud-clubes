@@ -21,7 +21,7 @@ Agrega cuantos equipos desees a la lista
 
 Elimina aquellos que no te interesen
 
-![Eliminar equipos](/frontend/imagenes/image.png)
+![Eliminar equipos](/frontend/imagenes/image-4.png)
 
 ## Características
 
