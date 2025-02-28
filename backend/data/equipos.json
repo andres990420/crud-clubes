@@ -3,7 +3,7 @@
     "nombre": "Arsenal F.C",
     "nombre-corto": "Arsenal",
     "tla": "ARS",
-    "escudo": "http://localhost:8080/escudos/ARS-escudo.png",
+    "escudo": "",
     "direccion": "Highbury House, 75 Drayton Park, London, N5 1BU",
     "telefono": "123456",
     "email": "arsenal@mail.com",
@@ -11,5 +11,57 @@
     "fundacion": "1990",
     "sitio-web": "www.arsenal.com",
     "estadio": "Emirates stadium"
+  },
+  {
+    "nombre": "Chelsea F.C",
+    "nombre-corto": "Chelsea",
+    "tla": "CHE",
+    "escudo": "http://localhost:8080/escudos/CHE-escudo.png",
+    "direccion": "Stamford Bridge, Fulham Road, London, SW6 1HS",
+    "telefono": "654321",
+    "email": "chelsea@mail.com",
+    "colores-equipo": "azul",
+    "fundacion": "1905",
+    "sitio-web": "www.chelseafc.com",
+    "estadio": "Stamford Bridge"
+  },
+  {
+    "nombre": "Liverpool F.C",
+    "nombre-corto": "Liverpool",
+    "tla": "LIV",
+    "escudo": "http://localhost:8080/escudos/LIV-escudo.png",
+    "direccion": "Anfield, Anfield Road, Liverpool, L4 0TH",
+    "telefono": "112233",
+    "email": "liverpool@mail.com",
+    "colores-equipo": "rojo",
+    "fundacion": "1892",
+    "sitio-web": "www.liverpoolfc.com",
+    "estadio": "Anfield"
+  },
+  {
+    "nombre": "Manchester United F.C",
+    "nombre-corto": "Man Utd",
+    "tla": "MUN",
+    "escudo": "http://localhost:8080/escudos/MUN-escudo.png",
+    "direccion": "Old Trafford, Sir Matt Busby Way, Manchester, M16 0RA",
+    "telefono": "223344",
+    "email": "manutd@mail.com",
+    "colores-equipo": "rojo y blanco",
+    "fundacion": "1878",
+    "sitio-web": "www.manutd.com",
+    "estadio": "Old Trafford"
+  },
+  {
+    "nombre": "Manchester City F.C",
+    "nombre-corto": "Man City",
+    "tla": "MCI",
+    "escudo": "http://localhost:8080/escudos/MCI-escudo.png",
+    "direccion": "Etihad Stadium, Manchester, M11 3FF",
+    "telefono": "334455",
+    "email": "mancity@mail.com",
+    "colores-equipo": "celeste",
+    "fundacion": "1880",
+    "sitio-web": "www.mancity.com",
+    "estadio": "Etihad Stadium"
   }
 ]
