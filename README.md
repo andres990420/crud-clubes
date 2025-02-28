@@ -4,6 +4,25 @@
 
 CRUD Clubes es una aplicación web que permite gestionar información sobre clubes deportivos. Los usuarios pueden crear, leer, actualizar y eliminar información de los clubes, incluyendo detalles como el nombre, escudo, colores del equipo, y más.
 
+Ve la lista de los equipos que tienes agregados.
+![listaEquipos](image.png)
+
+Ve la informacion detallada de cada uno de esos equipos, visita la pagina web o busca su direccion en google maps dandole click a la informacion
+
+![Informacion de cada equipo](/frontend/imagenes/image-1.png)
+
+Edita la informacion de los equipos cada vez que quieras
+
+![Editar informacion equipos](/frontend/imagenes/image-2.png)
+
+Agrega cuantos equipos desees a la lista
+
+![Agregar nuevos equipos](/frontend/imagenes/image-3.png)
+
+Elimina aquellos que no te interesen
+
+![Eliminar equipos](/frontend/imagenes/image.png)
+
 ## Características
 
 - **Agregarr**: Permite agregar nuevos clubes con toda su información relevante.
