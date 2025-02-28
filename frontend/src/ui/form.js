@@ -36,6 +36,7 @@ function formularioAgregarEquipo(){
     $tituloDocumento.textContent = 'Agregar Equipo'
     $tituloFormulario.textContent = 'Agrega un nuevo equipo a la lista';
     $botonEnviar.value = 'Agregar';
+    verificarValidacion();
 }
 
 async function formularioModificarEquipo(tla){
@@ -86,9 +87,8 @@ $escudo.onchange = () =>{
     $renderEscudo.src = imagen;
 }
 
-$formulario.addEventListener('submit', async (event)=>{
+async function envioDeFormulario(event){
     
-    event.preventDefault();
     const formData = new FormData(event.target);
 
     if(tla !== null){
@@ -109,5 +109,23 @@ $formulario.addEventListener('submit', async (event)=>{
             const modalData = new ModalData().errorAgregarEquipo()
             activarModal(modalData);
         }
-    };
-});
+    }; 
+}
+
+function verificarValidacion(){
+
+    const forms = document.querySelectorAll('.needs-validation');
+    
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event =>{
+            if (!form.checkValidity()){
+                event.preventDefault();
+                event.stopPropagation();
+            }else{
+                event.preventDefault()
+                envioDeFormulario(event)
+            }
+            form.classList.add('was-validated');       
+        }, false)
+    })
+}
