@@ -11,21 +11,30 @@
         <h1 id="titulo"></h1>
     </div>
     <div class="container">
-        <form id="formulario" enctype="multipart/form-data">
+        <form class="needs-validation" id="formulario" enctype="multipart/form-data" novalidate>
             <div class="row g-3 mt-3">
                 <div class="col-6">
-                    <label class="form-label" for="nombre">Nombre</label>
-                    <input class="form-control" type="text" id="nombre" name="nombre">
+                    <label class="form-label" for="nombre">Nombre*</label>
+                    <input class="form-control" type="text" id="nombre" name="nombre" required>
+                    <div class="invalid-feedback">
+                        Introduzca el nombre del equipo
+                    </div>
                 </div>
                 <div class="col-6">
-                    <label class="form-label" for="nombre-corto">Nombre Corto</label>
-                    <input class="form-control" type="text" id="nombre-corto" name="nombre-corto">
+                    <label class="form-label" for="nombre-corto">Nombre Corto*</label>
+                    <input class="form-control" type="text" id="nombre-corto" name="nombre-corto" required>
+                    <div class="invalid-feedback">
+                        Introduzca el nombre corto del equipo
+                    </div>
                 </div>
             </div>
             <div class="row g-3">
                 <div class="col-3">
-                    <label class="form-label" for="tla">TLA</label>
-                    <input class="form-control" type="text" id="tla" name="tla"> 
+                    <label class="form-label" for="tla">TLA*</label>
+                    <input class="form-control" type="text" id="tla" name="tla" maxlength="3" required> 
+                    <div class="invalid-feedback">
+                        Introduzca el TLA del equipo
+                    </div>
                 </div>
                 <div class="col">
                     <label class="form-label" for="escudo">Escudo</label>
@@ -37,18 +46,27 @@
             </div>
             <div class="row g-3">
                 <div class="col-12">
-                    <label class="form-label" for="direccion">Dirección</label>
-                    <input class="form-control" type="text" id="direccion" name="direccion">
-                </div>
+                    <label class="form-label" for="direccion">Dirección*</label>
+                    <input class="form-control" type="text" id="direccion" name="direccion" required>
+                    <div class="invalid-feedback">
+                        Introduzca la direccion donde esta ubicado el equipo
+                    </div>
+                </div>               
             </div>
             <div class="row g-3">
                 <div class="col-6">
-                    <label class="form-label" for="telefono">telefono</label>
-                    <input class="form-control" type="number" id="telefono" name="telefono">
+                    <label class="form-label" for="telefono">Telefono*</label>
+                    <input class="form-control" type="number" id="telefono" name="telefono" required>
+                    <div class="invalid-feedback">
+                        Introduzca el numero de telefono del equipo
+                    </div>
                 </div>
                 <div class="col-6">
-                    <label class="form-label" for="email">Email</label>
-                    <input class="form-control" type="email" id="email" name="email">    
+                    <label class="form-label" for="email">Email*</label>
+                    <input class="form-control" type="email" id="email" name="email" required>    
+                    <div class="invalid-feedback">
+                        Introduzca el email de contacto del equipo
+                    </div>
                 </div>
             </div>
             <div class="row g-3">
